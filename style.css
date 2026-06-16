@@ -1,0 +1,109 @@
+* {
+    margin: 1;
+    padding: 0; 
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', system-ui, sans-serif;
+    background: linear-gradient(135deg, oklch(23.694% 0.02877 172.351), #1a1a2e);
+    color: oklch(90.869% 0.00166 148.463);
+    line-height: 1.7;
+    padding: 60px 20px;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.container {
+    max-width: 620px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Playfair Display', sans-serif;
+    font-size: 3.5rem;
+    margin-bottom: 8px;
+    color: #ffffff;
+}
+
+.subtitle {
+    font-size: 1.3rem;
+    color: #a0a0ff;
+    margin-bottom: 40px;
+}
+
+.bio {
+    font-size: 1.15rem;
+    margin-bottom: 50px;
+    color: #cccccc;
+}
+
+.learning h2 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+
+.learning ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    align-items: center;
+}
+
+.learning li {
+    font-size: 1.1rem;
+    background: rgba(255,255,255,0.08);
+    padding: 14px 28px;
+    border-radius: 50px;
+    width: fit-content;
+    transition: all 0.3s ease;
+}
+
+.learning li:hover {
+    background: rgba(160, 160, 255, 0.2);
+    transform: translateY(-3px);
+}
+
+.contact-btn {
+    margin-top: 50px;
+    padding: 16px 40px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    background: #6466f1;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.contact-btn:hover {
+    background: #8184ff;
+    transform: scale(1.05);
+}
+.work-btn {
+    margin-top: 20px;
+    padding: 16px 40px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    background: #6466f1;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.work-btn:hover {
+    background: #8184ff;
+    transform: scale(1.05);
+}
+@media (max-width: 600px) {
+    h1 {
+        font-size: 2.8rem;
+    }
+}
